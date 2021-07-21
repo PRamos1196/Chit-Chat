@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap");
+
+body {
+  font-family: "Open Sans";
+  background: url(scratch/sea-edge-79ab30e2.png) no-repeat;
+  height: 100%;
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.chitChat {
+  margin-top: 3%;
+  margin-left: 11%;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.textmessage{
+  color: white;
+}
+.message-box {
+  margin: 5px;
+}
+
+.profile-pic {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 1px;
+  border-radius: 50%;
+  float: left;
+}
+
+.message-btn {
+  position: relative;
+  float: right;
+  width: auto;
+  height: 40px;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px black;
+  background: #00D1D1;
+  text-align: 40px;
+  padding: 16px 18px 14px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.message-btn:active {
+  position: relative;
+  top: 4px;
+}
+
+.userCount {
+  margin: 10px;
+  color: white;
+}
+
+.chitChat {
+  position: relative;
+  align-content: center;
+  background: #603F8B;
+  width: 1500px;
+  height: 800px;
+  border-radius: 1%;
+}
+
+.textmessage {
+  color: white;
+  margin-right: 25%;
+  margin-top: 3px;
+  padding: 10px;
+}
+
+.userName{
+  color: #00FFFF;
+  Size: 5%;
+}
+.textSpace{
+  margin-left: 50%;
+}
+
+.message-send {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  padding: 1%;
+  width: 90%;
+  height: 50px;
+  background: #3a40461;
+  flex-direction: column-reverse;
+  border: 0;
+}
+
+.Login-Box{
+  float: center;
+  margin-left: 800px;
+  margin-top: 325px;
+  background: white;
+  height: 300px;
+  width: 300px;
+}
+.login-button{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.text-space {
+  margin-left: 325px;
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+  display: flex;
+  background: #7d36c5;
+  flex-direction: column-reverse;
+  padding: 10px;
+  height: 83%;
+  width: 68.5%;
+}
+
+.userNameTextBar {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.text-bar {
+  margin-top: auto;
+  margin-right: 25px;
+  float: right;
+  width: 70%;
+  grid-auto-columns: 340px;
+  color: white;
+  height: 40px;
+  background:  #7d36c5;
+  border: 0;
+  border-radius: 10px;
+}
